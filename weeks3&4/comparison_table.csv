@@ -1,7 +1,0 @@
-,methods,runtimes (s),metrics (accuracy/silhouette/f1/iou),labels needed?,interpretability
-0,classical,0.151,"mean dice = 1.0000, mean iou = 1.0000",False,High (segmentation performed manually)
-1,RandomForest,0.092939,f1 = 0.970874,True,High (feature importance performed beforehand)
-2,SVM,0.004934,f1 = 1.0000,True,High (feature importance performed beforehand)
-3,k-means (k=7),0.0103,silhouette = 0.629 (k=7),False,Average (unsupervised learning)
-4,CNN,225.4264,f1 = 0.5213,True,Low (effectively a black box)
-5,U-Net,92.2103,"mean dice = 0.9451, mean iou = 0.8965",False,Average (makes some use of manual segmentation operations)
