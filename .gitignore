@@ -1,3 +1,6 @@
 .ipynb_checkpoints/
 example_EM_Image.tif
 Si-SiGe.dm4
+raw_data
+CNN_dataset
+all_cropped_imgs_for_CNN
